@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Talk_to_me </title>
+    <link rel="stylesheet" type="text/css" href="_CSS/style.css" />
+    <script linguage="" src=""></script>
+    <script>        
+    </script>
+</head>
+<script lang="" src=""></script>
+
+<body>
+    <div id="interface4">
+        <header id="header">
+            <div id="section">
+                <img id="Language" src="_roadMap/languageSmall.png" alt="banner language">
+                </br>
+                <a id="Language" href="contato.html"> Portuguese </a>
+                <h1 id="portfolio"> PORTFOLIO </br> Renato Domingues </h1>
+            </div>
+            <div id="aside">
+                <nav id="menu">
+                    <ol type="i" start="1">
+                        <li> <a id="h4" href="talkToMe.html"> Talk </a> </li>
+                    </ol>
+                </nav>
+            </div>
+            <div id="aside">
+                <nav id="menu">
+                    <ol type="i" start="1">
+                        <li> <a id="h4" target="_blank" href="https://github.com/renatoDomingues"> GitHub </a> </li>
+                    </ol>
+                </nav>
+            </div>
+            <div id="asideMiddle">
+                <nav id="menu">
+                    <ol type="i" start="1">
+                        <li> <a id="h4" href="wereYouCurious.html"> Curious </a> </li>
+                    </ol>
+                </nav>
+            </div>
+            <div id="aside">
+                <nav id="menu">
+                    <ol type="i" start="1">
+                        <li> <a id="h4" href="index.html"> Home </a> </li>
+                    </ol>
+                </nav>
+            </div>
+        </header>
+
+        <div id="interface3"> 
+            <h2> This page is intended for companies that are interested in my work </h2>
+            <p>
+                Below, if you want, you can register, with some information that I will contact you soon 
+            </p>
+            <form id="fcontact" method="post" action="mailton:kungfurenato30@gmail.com"> 
+                <fieldset id="user">
+                    <legend> Identification user </legend>
+                    <p>
+                        <label for="cName"> Name </label> <input type="text" name="tName" id="cName" size="20" maxlength="30" placeholder="Please enter your name">
+                    </p> 
+                    <p>
+                        <label for="cPassword"> Password </label> <input type="password" name="tPassword" id="cPassword" size="8" maxlength="8" placeholder="8 numbers">
+                    </p>
+                    <p> <label for="cEmail"> E-mail </label> <input type="email" name="tEmail" id="cEmail" size="20" maxlength="40" placeholder="Please your email"> </p>
+                    <fieldset id="CompanyStartup">
+                        <p> <legend> Traditional company OR Startup? </legend> <input type="radio" name="tCompStart" id="cCompany"> <label for="cCompany"> Traditional company </label> </br/>
+                        <input type="radio" name="tCompStart" id="cStartup"> <label for="cStartup"> Startup </label> </p>
+                    </fieldset>
+
+                </fieldset> 
+                <fieldset id="address">
+                    <legend> Address user </legend>
+                    <p> <label for="cStreet"> Logradouro: </label> <input type="text" name="tStreet" id="cStreet" size="16" maxlength="80" placeholder="Street, avenue ..."> </p>
+                    <p> <label for="cNumber"> Number: </label> <input type="number" name="tNumber" id="cNumber" min="0" max="99999" placeholder="Numbers"> </p>
+                    </br>                
+                    </br id="">                
+                    <p> <label for="cProvince"> Province/State </label>
+                        <select name="tProvince" id="cProvince">
+                            <optgroup label="Southeast region">
+                                <option value="SP" selected> Louisiana </option>
+                                <option value="MG"> Georgia </option>
+                                <option value="RJ"> Mississippi </option>
+                            </optgroup> 
+                            <optgroup label="South region">
+                                <option value="PR"> South Carolina </option>
+                                <option value="SC"> Texas </option>
+                                <option value="RS"> Virginia </option>
+                            </optgroup>
+                        </select>
+                    </p>                
+                    <p>
+                        <label for="cCity"> City: </label> 
+                        <input type="text" name="tCity" id="cCity" maxlength="40" size="20" placeholder="Your city" list="citys">
+                        <datalist id="citys">
+                            <option value="São Paulo"> </option>
+                            <option value="Campinas"> </option>
+                            <option value="Valinhos"> </option>
+                        </datalist>
+                    </p>
+                </fieldset>  
+                <fieldset id="message">
+                    <legend> Message user </legend>
+                    <p> <label for="cMessage"> If you want, you can leave a message below: </label> <textarea name="tMessage" id="cMessage" cols="45" rows="5" placeholder="Leave your message here"></textarea> </p>
+                </fieldset>        
+            </form> 
+            <! <input id="toSend" type="submit" value="Send"/>
+            <input id="toSend" type="image" name="tToSend" src="_roadMap/botomSend.jpg"> 
+
+            <footer id="baseboard">
+                <p id="footer"> Copyright &copy; 2023 - by Renato Doningues Silva || 
+                    <a href="" target="_blank"> Facebook </a> ||
+                    <a href="" target="_blank"> Instagram </a> ||
+                    Email: kungfurenato30@gmail.com
+                </p>
+            </footer>         
+        </div>
+
+    </div>    
+</body>
+
+</html>

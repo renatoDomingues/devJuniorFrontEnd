@@ -1,0 +1,376 @@
+
+@charset "UTF-8";
+
+/* Index */
+
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:wght@100&display=swap');
+
+/*
+@media screen and (min-width: 100px) {
+    div#section {
+        background-color: rgb(2, 77, 2);
+        padding: 8px;
+        display: flex;
+    }
+    div#aside {
+        background-color: rgb(2, 77, 2);
+        padding: 8px;
+        display: flex;
+    }
+}
+@media screen and (min-width: 400px) {
+    div#section {
+        background-color: rgb(145, 158, 145);
+        padding: 8px;
+        display: contents;
+    }
+    div#aside {
+        background-color: rgb(145, 158, 145);
+        padding: 8px;
+        display: contents;
+    }
+}
+@media screen and (min-width: 800px) {
+    div#section {
+        background-color: lightgreen;
+        width: 50%;
+        padding: 8px;
+        display: grid;
+    }
+    div#aside {
+        background-color: lightgreen;
+        width: 50%;
+        padding: 8px;
+        display: grid;
+    }
+}
+@media screen and (min-width: 1100px) {
+    div#section {
+        background-color: rgb(1, 20, 1);
+        padding: 8px;
+        display: contents;
+    }
+    div#aside {
+        background-color: rgb(1, 20, 1);
+        padding: 8px;
+        display: contents;
+    }
+} */
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+h1, h2 {
+    background-color: rgb(25, 148, 25);
+    color: rgb(242, 247, 242);
+    border: 0.5px black solid;
+    padding: 5px;
+    border-radius: 10px  10px 0px 0px;
+}
+h1#portfolio {
+    margin: 1px 0px 1px 0px;
+    border-radius: 5px 5px 5px 5px;
+    padding: 10px;
+}
+h1#looking {
+    margin: 1px 0px 1px 0px;
+    border-radius: 5px 5px 5px 5px;
+    padding: 10px;
+}
+h3 {
+    color: rgb(250, 250, 250);
+    margin: 0px 0px -20px 50px;
+}
+h4 {
+    background-color: rgb(106, 192, 106);
+    color: rgb(242, 247, 242);
+    margin: 10px 70px 10px 70px;
+    border-radius: 5px 5px 5px 5px;
+    padding: 10px;
+}
+a#h4 {
+    color: rgb(242, 247, 242);
+    text-decoration: none;
+}
+
+a#h4Were {
+    color: rgb(122, 74, 235);
+    text-decoration: none;
+}
+h4#h4Were {
+    text-align: center;
+}
+p {
+    background-color: rgb(71, 185, 71);
+    color: rgb(243, 243, 243);
+    border: 0.5px black solid;
+    padding: 5px;
+    border-radius: 0px  0px 10px 10px;
+    margin: -20px 0px 0px 0px;
+}
+p#footer {
+    margin: 1px 0px 1px 0px;
+    border-radius: 5px 5px 5px 5px;
+    padding: 10px;
+}
+a {
+    color: rgb(143, 133, 133);
+}
+img#Language {
+    margin: auto auto auto 10px;
+}
+img#Language2 {
+    margin: auto auto auto auto;
+}
+a#Language {
+    color: rgb(122, 74, 235);
+    text-decoration: none;
+}
+body {
+    height: 100vh;
+    background-color: black;
+    background-image: url(../_roadMap/background.png);
+    background-position: center center;
+    /*background-repeat: no-repeat;*/
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+div#interface {
+    height: 105vh;
+    display: block;
+    width: 900px;
+    margin: 20px auto 20px auto;
+    padding: 15px;
+    background: url(../_roadMap/background.png) no-repeat;/* to correct */
+    /*background-size: 100% 100%;*/
+    border: 1px black solid;
+    background-position: center center;
+    /*background-repeat: no-repeat;*/
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+div#interfacePortuguese {
+    height: 115vh;
+    display: block;
+    width: 900px;
+    margin: 20px auto 20px auto;
+    padding: 15px;
+    background: url(../_roadMap/background.png) no-repeat;/* to correct */
+    /*background-size: 100% 100%;*/
+    border: 1px black solid;
+    background-position: center center;
+    /*background-repeat: no-repeat;*/
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+div#section {
+    display: block;
+    width: 500px;
+    float: left;
+    margin: 10px 0px 10px 0px;
+}
+div#aside {
+    display: block;
+    width: 90px;
+    float: right;
+
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 1px 1px 1px 1px;
+    background-color: rgb(122, 74, 235);
+    margin: -12px auto auto auto;
+}
+div#asideMiddle {
+    display: block;
+    width: 120px;
+    float: right;
+
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 1px 1px 1px 1px;
+    background-color: rgb(122, 74, 235);
+    margin: -12px auto auto auto;
+}
+section#body {
+    display: block;
+    width: 500px;
+    float: left;
+    margin: 10px 0px 10px 0px;
+    padding: 15px;
+    background: url(../_roadMap/background2.png);
+    border: 1px black solid;
+    box-shadow: 2px 2px 2px;
+}
+aside#side {
+    display: block;
+    width: 350px;
+    float: right;
+    margin: 10px 0px 10px 0px;
+    padding: 5px;
+    background: url(../_roadMap/background2.png);
+    border: 1px black solid;
+    box-shadow: 2px 2px 2px;
+}
+footer#baseboard {
+    clear: both;
+    color: rgb(255, 255, 255);
+    margin: 10px 10px 10px 10px;
+    padding: 15px;
+    background: url(../_roadMap/background2.png);
+    border: 1px black solid;
+}
+
+/* Were You Curious */
+body#body2 {
+    height: 100vh;
+    background-color: black;
+    background-image: url(../_roadMap/background.png);
+    background-position: center center;
+    /*background-repeat: no-repeat;*/
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+div#interface2 {
+    height: 102vh;
+    display: block;
+    width: 900px;
+    margin: 20px auto 20px auto;
+    padding: 20px 20px 400px 20px;
+    background: url(../_roadMap/background.png) no-repeat;/* to correct */
+    /*background-size: 100% 100%;*/
+    border: 1px black solid;
+    background-position: center center;
+    /*background-repeat: no-repeat;*/
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+section#body2 {
+    display: block;
+    width: 500px;
+    float: left;
+    margin: 10px 0px 10px 0px;
+    padding: 15px;
+    background: url(../_roadMap/background2.png);
+    border: 1px black solid;
+    box-shadow: 2px 2px 2px;
+}
+h3#wereYouCurious {
+    color: rgb(75, 188, 216);
+}
+aside#side2 {
+    display: block;
+    width: 350px;
+    float: right;
+    margin: 10px 0px 10px 0px;
+    padding: 5px;
+    background: url(../_roadMap/background2.png);
+    border: 1px black solid;
+    box-shadow: 2px 2px 2px;
+}
+
+/* Curioso "Portuguese" */
+body#body2portu {
+    height: 100vh;
+    background-color: black;
+    background-image: url(../_roadMap/background.png);
+    background-position: center center;
+    /*background-repeat: no-repeat;*/
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+div#interface2portu {
+    height: 110vh;
+    display: block;
+    width: 900px;
+    margin: 20px auto 20px auto;
+    padding: 20px 20px 400px 20px;
+    background: url(../_roadMap/background.png) no-repeat;/* to correct */
+    /*background-size: 100% 100%;*/
+    border: 1px black solid;
+    background-position: center center;
+    /*background-repeat: no-repeat;*/
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+section#body2portu {
+    display: block;
+    width: 500px;
+    float: left;
+    margin: 10px 0px 10px 0px;
+    padding: 15px;
+    background: url(../_roadMap/background2.png);
+    border: 1px black solid;
+    box-shadow: 2px 2px 2px;
+}
+h3#wereYouCurious {
+    color: rgb(75, 188, 216);
+}
+aside#side2 {
+    display: block;
+    width: 350px;
+    float: right;
+    margin: 10px 0px 10px 0px;
+    padding: 5px;
+    background: url(../_roadMap/background2.png);
+    border: 1px black solid;
+    box-shadow: 2px 2px 2px;
+}
+
+/* Talk To Me */
+div#interface4 {
+    height: 85vh;
+    display: block;
+    width: 900px;
+    margin: 20px auto 20px auto;
+    padding: 20px 20px 400px 20px;
+    background: url(../_roadMap/background.png) no-repeat;/* to correct */
+    /*background-size: 100% 100%;*/
+    border: 1px black solid;
+    background-position: center center;
+    /*background-repeat: no-repeat;*/
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+div#interface3 {
+    display: block;
+    width: 800px;
+    margin: 130px auto 130px auto;
+    padding: 15px;
+    background: url(../_roadMap/background.png) no-repeat;/* to correct */
+    /*background-size: 100% 100%;*/
+    border: 1px black solid;
+    background-position: center center;
+    /*background-repeat: no-repeat;*/
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+form {
+    width: 500px;
+    margin: auto;
+}
+input, textarea {
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 14pt;
+    background-color: white;
+    margin-top: 15px;
+}
+input:hover, textarea:hover {
+    rgba(0,0,205,0.2);
+}
+input#toSend {
+    margin: 5px auto 5px 350px;
+}
+legend {
+    color: white;
+    background-color: rgba(0,0,205,0.5);
+    padding: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+fieldset {
+    background-color: rgba(0,0,205,0.5);
+    margin: 20px;
+    padding: 5px;
+    border: 1px rgba(0,0,0,0.5);
+}
